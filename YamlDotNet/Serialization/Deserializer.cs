@@ -72,7 +72,13 @@ namespace YamlDotNet.Serialization
 				return TypeDescriptor.GetProperty(type, container, name, ignoreUnmatched);
 			}
 		}
-		
+
+		public ITypeInspector TypeDescriptor
+		{
+			get { return typeDescriptor.TypeDescriptor; }
+			set { typeDescriptor.TypeDescriptor = value; }
+		}
+
 		public Deserializer(
 			IObjectFactory objectFactory = null,
 			INamingConvention namingConvention = null,
