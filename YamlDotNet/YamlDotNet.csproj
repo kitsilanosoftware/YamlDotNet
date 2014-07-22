@@ -210,6 +210,7 @@
     <Compile Include="Serialization\TypeInspectors\ReadableAndWritablePropertiesTypeInspector.cs" />
     <Compile Include="Serialization\TypeInspectors\ReadablePropertiesTypeInspector.cs" />
     <Compile Include="Serialization\TypeInspectors\FieldsTypeInspector.cs" />
+    <Compile Include="Serialization\TypeInspectors\SelectManyTypeInspector.cs" />
     <Compile Include="Serialization\TypeInspectors\TypeInspectorSkeleton.cs" />
     <Compile Include="Serialization\TypeResolvers\DynamicTypeResolver.cs" />
     <Compile Include="Serialization\TypeResolvers\StaticTypeResolver.cs" />
